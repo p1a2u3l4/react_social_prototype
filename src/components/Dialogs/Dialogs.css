@@ -1,0 +1,13 @@
+.dialogs {
+    display: flex;
+    width: 70vw;
+    height: auto;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.dialog-sign {
+    color: red;
+    font-size: 1em;
+}

@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header'
+import Nav from './components/Navbar/Nav'
+import Main from './components/Profile/Main'
+import Dialogs from './components/Dialogs/Dialogs'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          test
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         test1 
-        </a>
-      </header>
+    <div className="App app-wrapper">
+      <Header />
+      <Nav />
+      {/*<Main/> */}
+      <Dialogs />
     </div>
   );
 }
+
+
+
 
 export default App;
